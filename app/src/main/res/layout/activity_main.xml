@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="301dp"
+            android:layout_height="353dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_gamefinder" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GameFinder"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#1B1B1B"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Pesquise jogos para computadores e consoles"
+            android:textColor="#555555"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Obs.:Escreva o nome do jogo corretamente, e se atente aos detalhes do nome ex: Counter-Strike 2"
+            android:textColor="#9932CC"
+            android:textSize="28dp" />
+
+        <EditText
+            android:id="@+id/editGameName"
+            android:layout_width="366dp"
+            android:gravity="center"
+            android:layout_height="114dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="Digite o nome do jogo. Ex: Valorant."
+            android:inputType="text"
+            android:padding="12dp"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginBottom="28dp"
+            android:padding="12dp"
+            android:text="Pesquisar jogo"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/btnNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ativar notificações"
+            android:textSize="20sp"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txtPermissionStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Permissão de notificação ainda não ativada."
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#7E57C2"
+            android:layout_marginBottom="16dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/txtError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#B00020"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:id="@+id/resultContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageCover"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#111111"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/txtDeveloper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/txtPublisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/txtGenre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/txtPlatform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/txtReleaseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#555555" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
