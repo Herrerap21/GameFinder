@@ -144,6 +144,56 @@ Atenção com os nomes dos jogos, eles precisam estar corretamente escritos, com
 
 
 
+
+
+
+
+##### **Prints**
+
+
+
+**Tela Inicial 1**
+
+**!\[Tela Inicial](prints/tela\_inicial\_1.png)**
+
+
+
+**Tela Inicial 2**
+
+**!\[Tela Inicial](prints/tela\_inicial\_2.png)**
+
+
+
+&#x20;**Pesquisa de Jogo**
+
+**!\[Pesquisa](prints/pesquisa\_de\_jogo.png)**
+
+
+
+**Mensagem de Erro**
+
+**!\[Erro](prints/mensagem\_de\_erro.png)**
+
+
+
+&#x20;**Permissão de Notificação**
+
+**!\[Permissão](prints/permissão\_de\_notificação.png)**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##### **Autores**
 
 
@@ -157,6 +207,4 @@ Roger Oliveira de Souza – Matrícula: 2584168
 
 
 João Miguel Machado Muniz Ferreira – Matrícula: 2565614
-
-
 
