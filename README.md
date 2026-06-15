@@ -1,4 +1,4 @@
-### **GameFinder**
+# **GameFinder**
 
 
 
@@ -10,7 +10,7 @@ O GameFinder permite pesquisar informações sobre jogos gratuitos (Free-to-Play
 
 
 
-##### **Funcionalidades**
+## **Funcionalidades**
 
 
 
@@ -34,7 +34,7 @@ O GameFinder permite pesquisar informações sobre jogos gratuitos (Free-to-Play
 
 
 
-##### **API Utilizada**
+### **API Utilizada**
 
 
 
@@ -46,7 +46,7 @@ https://www.freetogame.com/api-doc
 
 
 
-##### **Permissão Android Utilizada**
+### **Permissão Android Utilizada**
 
 
 
@@ -74,7 +74,7 @@ Fluxo da Permissão
 
 
 
-##### **Tecnologias Utilizadas**
+## **Tecnologias Utilizadas**
 
 
 
@@ -92,7 +92,7 @@ Fluxo da Permissão
 
 
 
-##### **Estrutura do Projeto**
+## **Estrutura do Projeto**
 
 
 
@@ -106,7 +106,7 @@ Fluxo da Permissão
 
 
 
-##### **Como Executar**
+## **Como Executar**
 
 
 
@@ -122,7 +122,7 @@ Fluxo da Permissão
 
 
 
-##### **Exemplos de Pesquisa**
+## **Exemplos de Pesquisa**
 
 
 
@@ -148,7 +148,7 @@ Atenção com os nomes dos jogos, eles precisam estar corretamente escritos, com
 
 
 
-# Prints
+## Prints
 
 ## Tela Inicial 1
 ![Tela Inicial 1](prints/tela_inicial_1.png)
@@ -178,7 +178,7 @@ Atenção com os nomes dos jogos, eles precisam estar corretamente escritos, com
 
 
 
-##### **Autores**
+## **Autores**
 
 
 
