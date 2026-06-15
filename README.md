@@ -148,38 +148,22 @@ Atenção com os nomes dos jogos, eles precisam estar corretamente escritos, com
 
 
 
-##### **Prints**
+# Prints
 
+## Tela Inicial 1
+![Tela Inicial 1](prints/tela_inicial_1.png)
 
+## Tela Inicial 2
+![Tela Inicial 2](prints/tela_inicial_2.png)
 
-**Tela Inicial 1**
+## Pesquisa de Jogo
+![Pesquisa de Jogo](prints/pesquisa_de_jogo.png)
 
-**!\[Tela Inicial](prints/tela\_inicial\_1.png)**
+## Mensagem de Erro
+![Mensagem de Erro](prints/mensagem_de_erro.png)
 
-
-
-**Tela Inicial 2**
-
-**!\[Tela Inicial](prints/tela\_inicial\_2.png)**
-
-
-
-&#x20;**Pesquisa de Jogo**
-
-**!\[Pesquisa](prints/pesquisa\_de\_jogo.png)**
-
-
-
-**Mensagem de Erro**
-
-**!\[Erro](prints/mensagem\_de\_erro.png)**
-
-
-
-&#x20;**Permissão de Notificação**
-
-**!\[Permissão](prints/permissão\_de\_notificação.png)**
-
+## Permissão de Notificação
+![Permissão de Notificação](prints/permissao_de_notificacao.png)
 
 
 
